@@ -1,10 +1,10 @@
 import React from 'react';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="container">
       <header>
-         <h1>Fraternia</h1>
+        <h1>Fraternia</h1>
       </header>
     </div>
   );
