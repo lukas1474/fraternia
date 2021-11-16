@@ -4,8 +4,12 @@ const App = () => {
   return (
     <div className="container">
       <header>
-         <h1>Fraternia Zakonna</h1>
          <img src="/images/LOGO.svg" alt="fraternia" />
+         <a href='tel:+48 739 985 627'>+48 739 985 627</a>
+         <a href='mailto:kontakt@fraternia-zakonna.pl'>kontakt@fraternia-zakonna.pl</a>
+         <p>ul. Kościuszki 1/19</p>
+         <p>44-240 Żory</p>
+         <br />
          <h2>Strona w budownie</h2>
       </header>
     </div>
