@@ -7,10 +7,10 @@ const App = () => {
          <img src="/images/LOGO.svg" alt="fraternia" />
          <a href='tel:+48 739 985 627'>+48 739 985 627</a>
          <a href='mailto:kontakt@fraternia-zakonna.pl'>kontakt@fraternia-zakonna.pl</a>
-         <p>ul. Kościuszki 1/19</p>
+         <p>ul. Kościuszki 1</p>
          <p>44-240 Żory</p>
          <br />
-         <h2>Strona w budownie</h2>
+         <h2>Strona w budowie</h2>
       </header>
     </div>
   );
