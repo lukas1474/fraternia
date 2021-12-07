@@ -8,3 +8,10 @@ header {
 img {
   height: 300px;
 }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
