@@ -11,7 +11,7 @@ const App = () => {
       <Container className={styles.container}>
         <Row className={styles.row1}>
           <img src="/images/Logo2V3.svg" alt="fraternia" />
-          <h3 className={styles.title}>Fratenia Kalatrawensów w Żorach</h3>
+          <h3 className={styles.title}>Fraternia Kalatrawensów w Żorach</h3>
           <a href='tel:+48 739 985 627' className={styles.tel}>+48 739 985 627</a>
           <a href='mailto:kontakt@fraternia-zakonna.pl' className={styles.mail}>kontakt@fraternia-zakonna.pl</a>
           <p>
