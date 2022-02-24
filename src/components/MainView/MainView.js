@@ -1,10 +1,11 @@
-import styles from "./MainView.module.scss";
+import React from 'react';
+import styles from './MainView.module.scss';
 
-import {Row, Col, Container} from 'react-bootstrap'
+import {Row, Col, Container} from 'react-bootstrap';
 
 const MainView = () => {
   return (
-    <header>
+    <div>
       <Container className={styles.container}>
         <Row className={styles.row1}>
           <img src="/images/Logo2V3.svg" alt="fraternia" />
@@ -40,8 +41,8 @@ const MainView = () => {
         </Row>
         <h2>Strona w budowie</h2>
       </Container>
-    </header>
+    </div>
   );
-}
+};
 
 export default MainView;

@@ -1,0 +1,11 @@
+@import "./normalize.scss";
+@import "./settings.scss";
+@import "./typography.scss";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
