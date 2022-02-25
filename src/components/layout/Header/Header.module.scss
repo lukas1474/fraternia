@@ -1,69 +1,62 @@
 @import "../../../styles/settings.scss";
 
-header {
-  margin: 15px;
-}
-
-img {
-  height: 220px;
-}
+/*main view*/
 
 .row{
-  // border: 1px solid red;
-  padding: 50px 0 50px 0;
   width: 65%;
+  border-bottom: 1px solid $black;
 }
 
 .col {
-  // border: 1px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 25px 0 25px 0;
 }
 
-.title {
-  font-size: 3rem;
+img {
+  height: 200px;
 }
 
 .addressDiv {
   font-size: 1.4rem;
 }
 
+.title {
+  font-size: 3rem;
+}
+
 .tel, .mail {
   text-decoration: none;
-  color: red;
+  color: $red;
   font-size: 1.4rem;
 
   &:hover {
-    color: black;
+    color: $black;
   }
 }
 
-/* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
+/*RWD*/
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
 }
 
-/* XXL Extra Extra Large Devices, Desktops  */
-@media (min-width: 1400px) and (max-width: 1920px) {
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+}
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
 }
 
-/* XL Extra Extra Large Devices, Laptops  */
-@media (min-width: 1200px) and (max-width: 1399px) {
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 }
 
-/* LG Large Devices, Tablets iPad Pro */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* MD Medium Devices, Tablets iPad */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-}
-
-/* SM Small Devices, Small tablets Large Phones */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 0px) and (max-width: 575px) {
+@media only screen and (min-width: 0px) and (max-width: 479px) {
 }

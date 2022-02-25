@@ -9,7 +9,7 @@ const MainView = () => {
       <Container className={styles.container}>
         <div className={styles.textDiv}>
           <p className={styles.text}>
-            Fraternia Zakonna jest miejscem gdzie oferowane są wyroby zakonne.
+            Fraternia Zakonna jest miejscem, gdzie oferowane są wyroby zakonne.
             Wszystkie wyroby znajdujące się we fraterni są wytwarzane ręcznie przez zakonników z najwyższej jakości składników pochodzących z własnych upraw i hodowli, bądź od lokalnych rolników.
             Całość dochodu pochodzącego z wyrobów zakonnych przekazywana jest na rzecz Zakonu i służy do finansowania jego codziennej pracy.
           </p>
@@ -38,8 +38,8 @@ const MainView = () => {
               <p>nieczynne</p>
             </Col>
           </Row>
+          <h2 className={styles.inProgress}>Strona w budowie</h2>
         </div>
-        <h2 className={styles.inProgress}>Strona w budowie</h2>
       </Container>
     </div>
   );
