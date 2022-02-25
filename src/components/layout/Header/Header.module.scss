@@ -1,5 +1,45 @@
 @import "../../../styles/settings.scss";
 
+header {
+  margin: 15px;
+}
+
+img {
+  height: 220px;
+}
+
+.row{
+  // border: 1px solid red;
+  padding: 50px 0 50px 0;
+  width: 65%;
+}
+
+.col {
+  // border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 25px 0;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.addressDiv {
+  font-size: 1.4rem;
+}
+
+.tel, .mail {
+  text-decoration: none;
+  color: red;
+  font-size: 1.4rem;
+
+  &:hover {
+    color: black;
+  }
+}
+
 /* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
 }

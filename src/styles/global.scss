@@ -2,10 +2,50 @@
 @import "./settings.scss";
 @import "./typography.scss";
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fr";
+  background-color: #fff;
+  margin: 0;
+  color: #000;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100%;
+  text-align: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "Fraternia";
+  src: local("Fraternia"),
+   url("../fonts/Fraternia.ttf");
+   font-weight: bold;
+}
+
+a, p {
+  font-family: "Fraternia";
+  font-weight: bolder;
+  font-size: larger;
+  font-size: 1,5rem;
+}
+
+h2, h3 {
+  font-family: "Fraternia";
+  font-size: 2rem;
+  font-weight: bolder;
 }
