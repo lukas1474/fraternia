@@ -1,15 +1,14 @@
 import React from 'react';
+import styles from './MainLayout.module.scss';
 
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 // eslint-disable-next-line react/prop-types
 const MainLayout = ({children}) => {
   return (
-    <div>
+    <div className={styles.mainLayoutGrid}>
       <Header />
       {children}
-      <Footer />
     </div>
   );
 };

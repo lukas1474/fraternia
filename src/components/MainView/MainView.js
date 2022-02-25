@@ -16,7 +16,7 @@ const MainView = () => {
         </div>
         <div className={styles.hoursDiv}>
           <Row>
-            <h2 className={styles.hours}>Godziny otwarcia</h2>
+            <h2 className={styles.hoursTitle}>Godziny otwarcia</h2>
           </Row>
           <Row className={styles.row}>
             <Col className={styles.col}>

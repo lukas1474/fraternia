@@ -3,24 +3,26 @@
 /*main view*/
 
 .container {
-  min-height: 70vh;
+  min-height: 50vh;
 }
 
 .textDiv {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.1rem;
 }
 
 .hoursDiv {
   margin: 25px 0 0 0;
+  font-size: 1.1rem;
 }
 
-.hours {
+.hoursTitle {
   margin: 0 0 25px 0;
 }
 
-.inProgress {
+.inProgress, .textDiv {
   margin: 25px 0 0 0;
 }
 
