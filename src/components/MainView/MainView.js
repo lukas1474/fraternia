@@ -8,11 +8,37 @@ const MainView = () => {
     <div>
       <Container className={styles.container}>
         <div className={styles.textDiv}>
-          <p className={styles.text}>
-            Fraternia Zakonna jest miejscem, gdzie oferowane są wyroby zakonne.
-            Wszystkie wyroby znajdujące się we fraterni są wytwarzane ręcznie przez zakonników z najwyższej jakości składników pochodzących z własnych upraw i hodowli, bądź od lokalnych rolników.
-            Całość dochodu pochodzącego z wyrobów zakonnych przekazywana jest na rzecz Zakonu i służy do finansowania jego codziennej pracy.
-          </p>
+          <Row className={styles.row}>
+            <p className={styles.text}>
+            Fraternia Zakonna oferuje wyroby sezonowe, unikatowe, nietuzinkowe. Tworzone są one ze starannością i miłością do bliźniego z najwyższej jakości składników.
+            Wyroby znajdujące się we Fraterni są ręcznie wytwarzane przez zakonników w większości według dawnych receptur.
+            </p>
+          </Row>
+          <Row className={styles.row}>
+            <div>
+              <h2 className={styles.productsTitle}>Oferujemy między innymi:</h2>
+            </div>
+            <Col md={4}>
+              <ul>
+                <li>Przetwory warzywne, owocowe i mięsne</li>
+                <li>Oleje i octy</li>
+                <li>Nalewki</li>
+              </ul>
+            </Col>
+            <Col md={4}>
+              <ul>
+                <li>Soki i syropy</li>
+                <li>Produkty ziołowe</li>
+                <li>Wyroby pszczele</li>
+              </ul>
+            </Col>
+            <Col md={4}>
+              <ul>
+                <li>Naturalne kosmetyki</li>
+                <li>Rękodzieło</li>
+              </ul>
+            </Col>
+          </Row>
         </div>
         <div className={styles.hoursDiv}>
           <Row>

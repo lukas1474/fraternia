@@ -32,9 +32,10 @@ body {
    url("../fonts/Fraternia.ttf");
 }
 
-a, p {
+a, p, ul, li {
   font-family: "Fraternia";
   font-weight: bold;
+  list-style: square;
 }
 
 h2, h3 {

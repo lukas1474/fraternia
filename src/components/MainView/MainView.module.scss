@@ -4,13 +4,15 @@
 
 .container {
   min-height: 50vh;
+  max-width: 40%;
 }
 
 .textDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 1.1rem;
+}
+
+.text {
+  margin: 0 0 30px 0;
 }
 
 .hoursDiv {
@@ -35,18 +37,31 @@
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
 }
+
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    max-width: 75%;
+  }
 }
 
 /* Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 90%;
+  }
 }
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 98%;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
+  .container {
+    max-width: 100%;
+  }
 }
