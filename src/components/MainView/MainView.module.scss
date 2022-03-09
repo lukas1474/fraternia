@@ -1,39 +1,67 @@
+@import "../../styles/settings.scss";
+
+/*main view*/
+
 .container {
-  margin: 50px 15px 50px 15px;
+  min-height: 50vh;
+  max-width: 40%;
 }
 
-header {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.textDiv {
+  font-size: 1.1rem;
 }
 
-.title {
+.text {
+  margin: 0 0 30px 0;
+}
+
+.hoursDiv {
+  margin: 25px 0 0 0;
+  font-size: 1.1rem;
+}
+
+.hoursTitle {
   margin: 0 0 25px 0;
 }
 
-img {
-  height: 300px;
-  margin: 25px 0 25px 0;
+.inProgress, .textDiv {
+  margin: 25px 0 0 0;
 }
 
-.tel, .mail {
-  text-decoration: none;
-  color: red;
+/*RWD*/
 
-  &:hover {
-    color: black;
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+}
+
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    max-width: 75%;
   }
 }
 
-.mail, .hours{
-  margin: 0 0 25px 0;
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 90%;
+  }
 }
 
-.col {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 98%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .container {
+    max-width: 100%;
+  }
 }

@@ -1,8 +1,10 @@
+import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import './styles/bootstrap.scss';
-import'./styles/settings.scss';
+import'./styles/global.scss';
 
+import MainLayout from './components/layout/MainLayout/MainLayout';
 import MainView from './components/MainView/MainView';
 import NotFound from './components/NotFound/NotFound';
 
@@ -10,13 +12,15 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={MainView}/>
-          <Route path="*" component={NotFound}/>
-        </Switch>
+        <MainLayout>
+          <Switch>
+            <Route exact path="/" component={MainView}/>
+            <Route path="*" component={NotFound}/>
+          </Switch>
+        </MainLayout>
       </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;

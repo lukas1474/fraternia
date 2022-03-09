@@ -1,0 +1,118 @@
+@import "../../../styles/settings.scss";
+
+/*main view*/
+
+.row{
+  width: 65%;
+  border-bottom: 1px solid $black;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 25px 0;
+}
+
+img {
+  height: 200px;
+}
+
+.addressDiv {
+  font-size: 1.4rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.tel, .mail {
+  text-decoration: none;
+  color: $red;
+  font-size: 1.4rem;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+/*RWD*/
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .row{
+    width: 75%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .col {
+    margin: 20px 0 20px 0;
+  }
+}
+
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .row{
+    width: 80%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .col {
+    margin: 20px 0 20px 0;
+  }
+}
+
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .row{
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .col {
+    margin: 20px 0 20px 0;
+  }
+}
+
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .row{
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .col {
+    margin: 20px 0 0 0;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .row{
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .col {
+    margin: 20px 0 0 0;
+  }
+}
