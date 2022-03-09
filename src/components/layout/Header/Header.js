@@ -19,9 +19,9 @@ const Header = () => (
             <br/>
             <a href='mailto:kontakt@fraternia-zakonna.pl' className={styles.mail}>kontakt@fraternia-zakonna.pl</a>
             <p className={styles.address}>
-            ul. Kościuszki 1
+              ul. Kościuszki 1
               <br/>
-            44-240 Żory
+              44-240 Żory
             </p>
           </div>
         </Col>
