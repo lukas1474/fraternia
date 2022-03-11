@@ -5,8 +5,8 @@ import './styles/bootstrap.scss';
 import'./styles/global.scss';
 
 import MainLayout from './components/layout/MainLayout/MainLayout';
-import MainView from './components/MainView/MainView';
-import NotFound from './components/NotFound/NotFound';
+import MainView from './components/views/MainView/MainView';
+import NotFound from './components/views/NotFound/NotFound';
 
 const App = () => {
   return (

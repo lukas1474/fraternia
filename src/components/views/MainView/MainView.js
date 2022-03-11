@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './MainView.module.scss';
 
 import {Row, Col, Container} from 'react-bootstrap';
+import GoogleMapsWrapper from '../../features/GoogleMapsWrapper/GoogleMapsWrapper';
 
 const MainView = () => {
   return (
@@ -66,6 +67,7 @@ const MainView = () => {
           </Row>
           <h2 className={styles.inProgress}>Strona w budowie</h2>
         </div>
+        {/* <GoogleMapsWrapper /> */}
       </Container>
     </div>
   );
