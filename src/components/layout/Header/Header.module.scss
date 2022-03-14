@@ -1,9 +1,12 @@
 @import "../../../styles/settings.scss";
 
 /*main view*/
+.header {
+  display: flex;
+  justify-content: center;
+}
 
 .row{
-  width: 65%;
   border-bottom: 1px solid $black;
 }
 
@@ -44,8 +47,8 @@ img {
 
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
-  .row{
-    width: 75%;
+  .row {
+    width: 60%;
   }
 
   .title {
@@ -59,7 +62,7 @@ img {
 
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .row{
+  .row {
     width: 80%;
   }
 
@@ -74,8 +77,8 @@ img {
 
 /* Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .row{
-    width: 100%;
+  .row {
+    width: 90%;
   }
 
   .title {
@@ -89,7 +92,7 @@ img {
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .row{
+  .row {
     width: 100%;
   }
 
@@ -104,8 +107,9 @@ img {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-  .row{
+  .row {
     width: 100%;
+    margin-left: 0;
   }
 
   .title {

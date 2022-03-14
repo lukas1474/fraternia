@@ -23,7 +23,7 @@ const Maps = () => {
   });
 
   return (
-    <Card className={styles.mapDiv} ref={ref} id='map'/>
+    <Card className={styles.mapCard} ref={ref} id='map'/>
   );
 };
 
