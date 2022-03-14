@@ -1,14 +1,13 @@
 import React from 'react';
-import styles from './GoogleMapsWrapper.module.scss';
 
 import { Wrapper } from '@googlemaps/react-wrapper';
-import {Row, Col, Container} from 'react-bootstrap';
+import { MAPS_API_KEY } from '../../../data/api.config';
 
 import Maps from '../GoogleMaps/Maps';
 
 const GoogleMapsWrapper = () => {
   return (
-    <Wrapper apiKey={''}>
+    <Wrapper apiKey={MAPS_API_KEY}>
       <Maps />
     </Wrapper>
   );
