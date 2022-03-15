@@ -1,0 +1,56 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.yearBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+  color: black;
+  width: 100%;
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.textFooter {
+  margin: 2px;
+
+}
+
+/* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+}
+
+/* XXL Extra Extra Large Devices, Desktops  */
+@media (min-width: 1400px) and (max-width: 1920px) {
+}
+
+/* XL Extra Extra Large Devices, Laptops  */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* LG Large Devices, Tablets iPad Pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* MD Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* SM Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+}
