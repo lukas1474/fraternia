@@ -6,12 +6,12 @@ import {Row, Col} from 'react-bootstrap';
 const Header = () => (
   <header className={styles.header}>
     <Row className={styles.row}>
-      <Col lg={6} className={styles.col}>
+      <Col className={styles.col}>
         <div>
           <img src="/images/Logo2V3.svg" alt="fraternia" />
         </div>
       </Col>
-      <Col lg={4} className={styles.col}>
+      <Col className={styles.col}>
         <div className={styles.addressDiv}>
           <h3 className={styles.title}>Fraternia Zakonna</h3>
           <a href='tel:+48 739 985 627' className={styles.tel}>+48 739 985 627</a>
