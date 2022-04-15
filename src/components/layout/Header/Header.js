@@ -13,7 +13,7 @@ const Header = () => (
       </Col>
       <Col className={styles.col}>
         <div className={styles.addressDiv}>
-          <h3 className={styles.title}>Fraternia Zakonna</h3>
+          <h3 className={styles.title}>Fraternia Zakonna™</h3>
           <a href='tel:+48 739 985 627' className={styles.tel}>+48 739 985 627</a>
           <br/>
           <a href='mailto:kontakt@fraternia-zakonna.pl' className={styles.mail}>kontakt@fraternia-zakonna.pl</a>
