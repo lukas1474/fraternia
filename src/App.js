@@ -7,10 +7,19 @@ import'./styles/global.scss';
 import MainLayout from './components/layout/MainLayout/MainLayout';
 import MainView from './components/views/MainView/MainView';
 import NotFound from './components/views/NotFound/NotFound';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const App = () => {
   return (
     <div>
+      <MessengerCustomerChat
+        pageId="105250125520349"
+        appId="264587772499116"
+        language="pl_PL"
+        loggedInGreeting="Napisz do nas"
+        loggedOutGreeting="Napisz do nas"
+        themeColor="#cc0033"
+      />
       <BrowserRouter>
         <MainLayout>
           <Switch>
