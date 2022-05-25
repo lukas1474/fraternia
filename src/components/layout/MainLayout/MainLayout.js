@@ -8,6 +8,8 @@ import Footer from '../Footer/Footer';
 
 // eslint-disable-next-line react/prop-types
 const MainLayout = ({children}) => {
+
+
   return (
     <div>
       <Header />
